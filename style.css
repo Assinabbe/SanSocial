@@ -735,6 +735,11 @@ main .container .right {
 /*------------------------ MEDIA QUERIES FOR SMALL TABLETS AND MOBILE PHONES --------------------------*/
 
 @media screen and (max-width:768px) {
+    .container {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    
     nav .search-bar {
         display: none;
     }
